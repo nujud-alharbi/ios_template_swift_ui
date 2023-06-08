@@ -5,14 +5,13 @@
 //  Created by Nujud Alalawi on 08/11/1444 AH.
 //
 
-import Foundation
+import SwiftUI
 import FirebaseAuth
 import FirebaseCore
 
 
 class AuthService {
-    
-    
+
     func LoginWithEmail(email:String, password:String, complition :@escaping(Bool ,Error? ) -> Void){
         
         var userAuth = Auth.auth().signIn(withEmail: email, password: password , completion: { (result, error) in
@@ -28,13 +27,13 @@ class AuthService {
         })
     }
     
-
+    
     func signUpWithEmail(email:String, password:String, displayName:String  , complition :@escaping(Bool ,Error? ) -> Void){
         
         var userAuth =     Auth.auth().createUser(withEmail: email, password: password)
-       
+        
         { (result, error) in
-
+            
             if let error = error{
                 complition(false , error)
                 return
@@ -57,5 +56,16 @@ class AuthService {
             complition(true ,nil)
         }
     }
+    
+    
+    func Phone_Login(){ }
+    
+    func Google_Login(){}
+    
+    
+    
+    
+    }
+    
+    
 
-}

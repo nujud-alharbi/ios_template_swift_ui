@@ -30,6 +30,9 @@
 		37076E612A31B5520076BBA9 /* CustomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E602A31B5520076BBA9 /* CustomeTextField.swift */; };
 		37076E632A31B57D0076BBA9 /* ScrolLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E622A31B57D0076BBA9 /* ScrolLoginButton.swift */; };
 		37076E652A31B5B30076BBA9 /* RestPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E642A31B5B30076BBA9 /* RestPassView.swift */; };
+		C7E971452A31E7760062CD60 /* otpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E971442A31E7760062CD60 /* otpScreen.swift */; };
+		C7E9714C2A31E9900062CD60 /* google_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9714B2A31E9900062CD60 /* google_Login.swift */; };
+		C7E9714E2A31E9D60062CD60 /* phone_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9714D2A31E9D60062CD60 /* phone_Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,10 @@
 		37076E602A31B5520076BBA9 /* CustomeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTextField.swift; sourceTree = "<group>"; };
 		37076E622A31B57D0076BBA9 /* ScrolLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrolLoginButton.swift; sourceTree = "<group>"; };
 		37076E642A31B5B30076BBA9 /* RestPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestPassView.swift; sourceTree = "<group>"; };
+		C7E971442A31E7760062CD60 /* otpScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = otpScreen.swift; sourceTree = "<group>"; };
+		C7E971482A31E7940062CD60 /* ios-template-swift-ui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ios-template-swift-ui-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C7E9714B2A31E9900062CD60 /* google_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = google_Login.swift; sourceTree = "<group>"; };
+		C7E9714D2A31E9D60062CD60 /* phone_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phone_Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +97,7 @@
 		0494ACBB2A31103400CAE364 /* ios_template_swift_ui */ = {
 			isa = PBXGroup;
 			children = (
+				C7E971482A31E7940062CD60 /* ios-template-swift-ui-Info.plist */,
 				0494ACE12A3123B900CAE364 /* feature */,
 				0494ACE02A3123B200CAE364 /* core */,
 				0494ACDF2A31239800CAE364 /* common */,
@@ -192,6 +200,9 @@
 				37076E602A31B5520076BBA9 /* CustomeTextField.swift */,
 				37076E622A31B57D0076BBA9 /* ScrolLoginButton.swift */,
 				37076E642A31B5B30076BBA9 /* RestPassView.swift */,
+				C7E971442A31E7760062CD60 /* otpScreen.swift */,
+				C7E9714B2A31E9900062CD60 /* google_Login.swift */,
+				C7E9714D2A31E9D60062CD60 /* phone_Login.swift */,
 			);
 			path = component;
 			sourceTree = "<group>";
@@ -289,9 +300,12 @@
 				0494ACEA2A323AC100CAE364 /* auth_service.swift in Sources */,
 				0494ACF62A323B8A00CAE364 /* form_signUp.swift in Sources */,
 				0494ACF22A323B4B00CAE364 /* custom_secure_field_view.swift in Sources */,
+				C7E971452A31E7760062CD60 /* otpScreen.swift in Sources */,
 				37076E652A31B5B30076BBA9 /* RestPassView.swift in Sources */,
 				37076E612A31B5520076BBA9 /* CustomeTextField.swift in Sources */,
 				0494ACED2A323AE600CAE364 /* signUp_screen.swift in Sources */,
+				C7E9714E2A31E9D60062CD60 /* phone_Login.swift in Sources */,
+				C7E9714C2A31E9900062CD60 /* google_Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +436,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ios_template_swift_ui/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-template-swift-ui-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,6 +465,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ios_template_swift_ui/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-template-swift-ui-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
