@@ -21,6 +21,11 @@
 		0494ACDA2A3121D600CAE364 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0494ACD92A3121D600CAE364 /* FirebaseStorage */; };
 		0494ACDC2A3121D600CAE364 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0494ACDB2A3121D600CAE364 /* FirebaseStorageCombine-Community */; };
 		0494ACDE2A31226A00CAE364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACDD2A31226A00CAE364 /* AppDelegate.swift */; };
+		0494ACEA2A323AC100CAE364 /* auth_service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACE92A323AC100CAE364 /* auth_service.swift */; };
+		0494ACED2A323AE600CAE364 /* signUp_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACEC2A323AE600CAE364 /* signUp_screen.swift */; };
+		0494ACF22A323B4B00CAE364 /* custom_secure_field_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACF12A323B4B00CAE364 /* custom_secure_field_view.swift */; };
+		0494ACF42A323B5800CAE364 /* custom_text_field_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACF32A323B5800CAE364 /* custom_text_field_view.swift */; };
+		0494ACF62A323B8A00CAE364 /* form_signUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACF52A323B8A00CAE364 /* form_signUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +36,11 @@
 		0494ACC32A31103500CAE364 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0494ACCA2A3120E800CAE364 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0494ACDD2A31226A00CAE364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0494ACE92A323AC100CAE364 /* auth_service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = auth_service.swift; sourceTree = "<group>"; };
+		0494ACEC2A323AE600CAE364 /* signUp_screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUp_screen.swift; sourceTree = "<group>"; };
+		0494ACF12A323B4B00CAE364 /* custom_secure_field_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = custom_secure_field_view.swift; sourceTree = "<group>"; };
+		0494ACF32A323B5800CAE364 /* custom_text_field_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = custom_text_field_view.swift; sourceTree = "<group>"; };
+		0494ACF52A323B8A00CAE364 /* form_signUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = form_signUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +119,69 @@
 		0494ACE12A3123B900CAE364 /* feature */ = {
 			isa = PBXGroup;
 			children = (
+				0494ACE42A323A7900CAE364 /* auth */,
 			);
 			path = feature;
+			sourceTree = "<group>";
+		};
+		0494ACE42A323A7900CAE364 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				0494ACE82A323AAB00CAE364 /* service */,
+				0494ACE72A323AA000CAE364 /* controller */,
+				0494ACE62A323A9600CAE364 /* view */,
+				0494ACE52A323A8C00CAE364 /* model */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		0494ACE52A323A8C00CAE364 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0494ACE62A323A9600CAE364 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0494ACEE2A323AEE00CAE364 /* component */,
+				0494ACEB2A323AD200CAE364 /* screen */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0494ACE72A323AA000CAE364 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0494ACE82A323AAB00CAE364 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				0494ACE92A323AC100CAE364 /* auth_service.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		0494ACEB2A323AD200CAE364 /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				0494ACEC2A323AE600CAE364 /* signUp_screen.swift */,
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
+		0494ACEE2A323AEE00CAE364 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				0494ACF52A323B8A00CAE364 /* form_signUp.swift */,
+				0494ACF32A323B5800CAE364 /* custom_text_field_view.swift */,
+				0494ACF12A323B4B00CAE364 /* custom_secure_field_view.swift */,
+			);
+			path = component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +270,12 @@
 			files = (
 				0494ACDE2A31226A00CAE364 /* AppDelegate.swift in Sources */,
 				0494ACBF2A31103400CAE364 /* ContentView.swift in Sources */,
+				0494ACF42A323B5800CAE364 /* custom_text_field_view.swift in Sources */,
 				0494ACBD2A31103400CAE364 /* ios_template_swift_uiApp.swift in Sources */,
+				0494ACEA2A323AC100CAE364 /* auth_service.swift in Sources */,
+				0494ACF62A323B8A00CAE364 /* form_signUp.swift in Sources */,
+				0494ACF22A323B4B00CAE364 /* custom_secure_field_view.swift in Sources */,
+				0494ACED2A323AE600CAE364 /* signUp_screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
