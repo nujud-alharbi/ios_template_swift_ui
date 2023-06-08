@@ -114,7 +114,9 @@ struct LoginView: View {
             
            VStack {
             
-            SocalLoginButton(image: Image(uiImage: #imageLiteral(resourceName: "telephone")), text: Text("Sign in with Phone"))
+               NavigationLink(destination: PhoneNumberView()) {
+                   SocalLoginButton(image: Image(uiImage: #imageLiteral(resourceName: "telephone")), text: Text("Sign in with Phone").foregroundColor(.black))
+               }
             SocalLoginButton(image: Image(uiImage: #imageLiteral(resourceName: "apple")), text: Text("Sign in with Apple"))
             SocalLoginButton(image: Image(uiImage: #imageLiteral(resourceName: "google")), text: Text("Sign in with Google"))
             
