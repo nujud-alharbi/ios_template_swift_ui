@@ -26,6 +26,10 @@
 		0494ACF22A323B4B00CAE364 /* custom_secure_field_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACF12A323B4B00CAE364 /* custom_secure_field_view.swift */; };
 		0494ACF42A323B5800CAE364 /* custom_text_field_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACF32A323B5800CAE364 /* custom_text_field_view.swift */; };
 		0494ACF62A323B8A00CAE364 /* form_signUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACF52A323B8A00CAE364 /* form_signUp.swift */; };
+		37076E5F2A31B51A0076BBA9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E5E2A31B51A0076BBA9 /* LoginView.swift */; };
+		37076E612A31B5520076BBA9 /* CustomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E602A31B5520076BBA9 /* CustomeTextField.swift */; };
+		37076E632A31B57D0076BBA9 /* ScrolLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E622A31B57D0076BBA9 /* ScrolLoginButton.swift */; };
+		37076E652A31B5B30076BBA9 /* RestPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E642A31B5B30076BBA9 /* RestPassView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,10 @@
 		0494ACF12A323B4B00CAE364 /* custom_secure_field_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = custom_secure_field_view.swift; sourceTree = "<group>"; };
 		0494ACF32A323B5800CAE364 /* custom_text_field_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = custom_text_field_view.swift; sourceTree = "<group>"; };
 		0494ACF52A323B8A00CAE364 /* form_signUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = form_signUp.swift; sourceTree = "<group>"; };
+		37076E5E2A31B51A0076BBA9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		37076E602A31B5520076BBA9 /* CustomeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTextField.swift; sourceTree = "<group>"; };
+		37076E622A31B57D0076BBA9 /* ScrolLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrolLoginButton.swift; sourceTree = "<group>"; };
+		37076E642A31B5B30076BBA9 /* RestPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestPassView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +188,10 @@
 				0494ACF52A323B8A00CAE364 /* form_signUp.swift */,
 				0494ACF32A323B5800CAE364 /* custom_text_field_view.swift */,
 				0494ACF12A323B4B00CAE364 /* custom_secure_field_view.swift */,
+				37076E5E2A31B51A0076BBA9 /* LoginView.swift */,
+				37076E602A31B5520076BBA9 /* CustomeTextField.swift */,
+				37076E622A31B57D0076BBA9 /* ScrolLoginButton.swift */,
+				37076E642A31B5B30076BBA9 /* RestPassView.swift */,
 			);
 			path = component;
 			sourceTree = "<group>";
@@ -271,10 +283,14 @@
 				0494ACDE2A31226A00CAE364 /* AppDelegate.swift in Sources */,
 				0494ACBF2A31103400CAE364 /* ContentView.swift in Sources */,
 				0494ACF42A323B5800CAE364 /* custom_text_field_view.swift in Sources */,
+				37076E632A31B57D0076BBA9 /* ScrolLoginButton.swift in Sources */,
+				37076E5F2A31B51A0076BBA9 /* LoginView.swift in Sources */,
 				0494ACBD2A31103400CAE364 /* ios_template_swift_uiApp.swift in Sources */,
 				0494ACEA2A323AC100CAE364 /* auth_service.swift in Sources */,
 				0494ACF62A323B8A00CAE364 /* form_signUp.swift in Sources */,
 				0494ACF22A323B4B00CAE364 /* custom_secure_field_view.swift in Sources */,
+				37076E652A31B5B30076BBA9 /* RestPassView.swift in Sources */,
+				37076E612A31B5520076BBA9 /* CustomeTextField.swift in Sources */,
 				0494ACED2A323AE600CAE364 /* signUp_screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
