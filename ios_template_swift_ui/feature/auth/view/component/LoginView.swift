@@ -56,9 +56,14 @@ struct LoginView: View {
                     
                 }else {
                     
-                    email = ""
                     
-                    UserDefaults.standard.set(email, forKey: "email")
+                    email = ""
+      //                                  isOn = false
+                                        print(email)
+                                         UserDefaults.standard.string(forKey :  "email") ?? ""
+                                        UserDefaults.standard.set("2", forKey: "remmber")
+                                        print(  UserDefaults.standard.set("2", forKey: "remmber"))
+                                        UserDefaults.standard.set(email, forKey: "email")
                     
                     
                 }
