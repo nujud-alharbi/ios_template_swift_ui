@@ -12,6 +12,15 @@ import GoogleSignIn
 
 class AuthService {
     
+//    public;   @State  var  ccode = "+966"
+//    @State var code = ""
+//      @State var no = ""
+//      @State var show = false
+//      @State var msg = ""
+//      @State var alert = false
+//      @State var ID = ""
+    
+    
     func LoginWithEmail(email:String, password:String, complition :@escaping(Bool ,Error? ) -> Void){
         
         var userAuth = Auth.auth().signIn(withEmail: email, password: password , completion: { (result, error) in
@@ -58,7 +67,38 @@ class AuthService {
     }
     
     
-    func Phone_Login(){ }
+//    func Phone_Login(ccode: String,no:String,ID: String ){
+//        PhoneAuthProvider.provider().verifyPhoneNumber("+"+ccode+no, uiDelegate: nil) { (ID, err) in
+//            
+//            if err != nil{
+//                
+//                print(err?.localizedDescription)
+//                
+//              //  alert.toggle()
+//                return
+//            }
+//            
+//           var ID = ID!
+//           // self.show.toggle()
+//        }
+//    }
+//    func Otp_code(){
+//        let credential =  PhoneAuthProvider.provider().credential(withVerificationID: self.ID, verificationCode: self.code)
+//         
+//         Auth.auth().signIn(with: credential) { (res, err) in
+//             
+//             if err != nil{
+//                 
+//                 self.msg = (err?.localizedDescription)!
+//                 self.alert.toggle()
+//                 return
+//             }
+//             
+//             UserDefaults.standard.set(true, forKey: "status")
+//             
+//             NotificationCenter.default.post(name: NSNotification.Name("statusChange"), object: nil)
+//         }
+//    }
     
     func Google_Login(){
         
