@@ -8,7 +8,7 @@ import SwiftUI
 struct SocalLoginButton: View {
     var image: Image
     var text: Text
-    
+
     var body: some View {
         HStack {
             image

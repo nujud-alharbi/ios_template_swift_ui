@@ -31,7 +31,6 @@
 		37076E632A31B57D0076BBA9 /* ScrolLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E622A31B57D0076BBA9 /* ScrolLoginButton.swift */; };
 		37076E652A31B5B30076BBA9 /* RestPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E642A31B5B30076BBA9 /* RestPassView.swift */; };
 		C7E971452A31E7760062CD60 /* otpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E971442A31E7760062CD60 /* otpScreen.swift */; };
-		C7E9714C2A31E9900062CD60 /* google_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9714B2A31E9900062CD60 /* google_Login.swift */; };
 		C7E9714E2A31E9D60062CD60 /* phone_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9714D2A31E9D60062CD60 /* phone_Login.swift */; };
 		C7E971512A320CFF0062CD60 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = C7E971502A320CFF0062CD60 /* GoogleSignIn */; };
 		C7E971532A320CFF0062CD60 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C7E971522A320CFF0062CD60 /* GoogleSignInSwift */; };
@@ -56,7 +55,6 @@
 		37076E642A31B5B30076BBA9 /* RestPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestPassView.swift; sourceTree = "<group>"; };
 		C7E971442A31E7760062CD60 /* otpScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = otpScreen.swift; sourceTree = "<group>"; };
 		C7E971482A31E7940062CD60 /* ios-template-swift-ui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ios-template-swift-ui-Info.plist"; sourceTree = SOURCE_ROOT; };
-		C7E9714B2A31E9900062CD60 /* google_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = google_Login.swift; sourceTree = "<group>"; };
 		C7E9714D2A31E9D60062CD60 /* phone_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phone_Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -205,7 +203,6 @@
 				37076E622A31B57D0076BBA9 /* ScrolLoginButton.swift */,
 				37076E642A31B5B30076BBA9 /* RestPassView.swift */,
 				C7E971442A31E7760062CD60 /* otpScreen.swift */,
-				C7E9714B2A31E9900062CD60 /* google_Login.swift */,
 				C7E9714D2A31E9D60062CD60 /* phone_Login.swift */,
 			);
 			path = component;
@@ -312,7 +309,6 @@
 				37076E612A31B5520076BBA9 /* CustomeTextField.swift in Sources */,
 				0494ACED2A323AE600CAE364 /* signUp_screen.swift in Sources */,
 				C7E9714E2A31E9D60062CD60 /* phone_Login.swift in Sources */,
-				C7E9714C2A31E9900062CD60 /* google_Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

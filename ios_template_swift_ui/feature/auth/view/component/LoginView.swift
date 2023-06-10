@@ -112,13 +112,29 @@ struct LoginView: View {
         VStack {
             
             NavigationLink(destination: PhoneNumberView()) {
+                
+                
+                
                 SocalLoginButton(image: Image(uiImage: #imageLiteral(resourceName: "telephone")), text: Text("Sign in with Phone").foregroundColor(.black))
             }
             SocalLoginButton(image: Image(uiImage: #imageLiteral(resourceName: "apple")), text: Text("Sign in with Apple"))
-            SocalLoginButton(image: Image(uiImage: #imageLiteral(resourceName: "google")), text: Text("Sign in with Google"))
             
+            
+            
+            //
+//                        SocalLoginButton(image:
+//                                            Image(uiImage: #imageLiteral(resourceName: "google")),
+//                                         text: Text("Sign in with Google"), action: authService.Google_Login());
+            //
+            //
+            //
+            //        }
+            Button(action: {
+                self.authService.Google_Login()
+            }) {
+                SocalLoginButton(image: Image(uiImage: #imageLiteral(resourceName: "google")), text: Text("Sign in with Google").foregroundColor(.black))
+            }
         }
-        
         
         
         HStack(spacing: 16.0){
