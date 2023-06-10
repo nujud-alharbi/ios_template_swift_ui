@@ -8,10 +8,10 @@
 import SwiftUI
 import FirebaseAuth
 import FirebaseCore
-
+import GoogleSignIn
 
 class AuthService {
-
+    
     func LoginWithEmail(email:String, password:String, complition :@escaping(Bool ,Error? ) -> Void){
         
         var userAuth = Auth.auth().signIn(withEmail: email, password: password , completion: { (result, error) in
@@ -60,12 +60,52 @@ class AuthService {
     
     func Phone_Login(){ }
     
-    func Google_Login(){}
-    
-    
-    
-    
+    func Google_Login(){
+        
+        guard let clientID = FirebaseApp.app()?.options.clientID else { return }
+        
+        // Create Google Sign In configuration object.
+        let config = GIDConfiguration(clientID: clientID)
+        GIDSignIn.sharedInstance.configuration = config
+        
+        // Start the sign in flow!
+        GIDSignIn.sharedInstance.signIn(withPresenting: getRootViewController()) {  result, error in
+            guard error == nil else {
+                return          }
+            
+            guard let user = result?.user,
+                  let idToken = user.idToken?.tokenString
+            else {
+                return          }
+            
+            let credential = GoogleAuthProvider.credential(withIDToken: idToken,
+                                                           accessToken: user.accessToken.tokenString)
+            
+            Auth.auth().signIn(with: credential){result, error in
+                
+                guard error == nil else
+                {
+                    return
+                }
+                print("sign in")
+            }
+        }
+        //    public func
     }
+    func getRootViewController()-> UIViewController{
+        guard let screen = UIApplication.shared.connectedScenes.first as? UIWindowScene else
+        {
+            return .init()
+        }
+        guard let root = screen.windows.first?.rootViewController else {
+            return . init()
+            
+        }
+        return root
+    }
+    
+}
+    
     
     
 
