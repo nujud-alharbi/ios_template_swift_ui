@@ -21,8 +21,4 @@ struct CustomTextFieldView: View {
     }
 }
 
-//struct custom_text_Previews: PreviewProvider {
-//    static var previews: some View {
-//        custom_text()
-//    }
-//}
+
