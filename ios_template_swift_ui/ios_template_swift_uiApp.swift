@@ -13,9 +13,9 @@ struct ios_template_swift_uiApp: App {
 
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                SignUp()
-            }
+          NavigationView {
+                IntailScreen ()
+           }
         }
     }
 }

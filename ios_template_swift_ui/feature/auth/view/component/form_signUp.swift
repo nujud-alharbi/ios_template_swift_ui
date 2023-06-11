@@ -112,7 +112,7 @@ struct FormSignUp: View {
                     Text("Already have an account?")
                         .padding(.vertical, 20)
                     NavigationLink(
-                        destination: LoginView()
+                        destination: LoginScreen()
                     ) {
                         Text("Log in")
                 .font(.headline)

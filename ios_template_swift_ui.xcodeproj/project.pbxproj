@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0493836A2A351E0E00E91F93 /* login_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049383692A351E0E00E91F93 /* login_screen.swift */; };
+		0493836C2A351E4200E91F93 /* Form_login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493836B2A351E4200E91F93 /* Form_login.swift */; };
+		0493836F2A352E1B00E91F93 /* IntailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493836E2A352E1B00E91F93 /* IntailScreen.swift */; };
+		049383722A35373900E91F93 /*   feature_button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049383712A35373900E91F93 /*   feature_button.swift */; };
 		0494ACBD2A31103400CAE364 /* ios_template_swift_uiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACBC2A31103400CAE364 /* ios_template_swift_uiApp.swift */; };
 		0494ACBF2A31103400CAE364 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACBE2A31103400CAE364 /* ContentView.swift */; };
 		0494ACC12A31103500CAE364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0494ACC02A31103500CAE364 /* Assets.xcassets */; };
@@ -26,17 +30,20 @@
 		0494ACF22A323B4B00CAE364 /* custom_secure_field_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACF12A323B4B00CAE364 /* custom_secure_field_view.swift */; };
 		0494ACF42A323B5800CAE364 /* custom_text_field_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACF32A323B5800CAE364 /* custom_text_field_view.swift */; };
 		0494ACF62A323B8A00CAE364 /* form_signUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACF52A323B8A00CAE364 /* form_signUp.swift */; };
-		37076E5F2A31B51A0076BBA9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E5E2A31B51A0076BBA9 /* LoginView.swift */; };
 		37076E612A31B5520076BBA9 /* CustomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E602A31B5520076BBA9 /* CustomeTextField.swift */; };
 		37076E632A31B57D0076BBA9 /* ScrolLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E622A31B57D0076BBA9 /* ScrolLoginButton.swift */; };
-		37076E652A31B5B30076BBA9 /* RestPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E642A31B5B30076BBA9 /* RestPassView.swift */; };
-		C7E971452A31E7760062CD60 /* otpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E971442A31E7760062CD60 /* otpScreen.swift */; };
-		C7E9714E2A31E9D60062CD60 /* phone_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9714D2A31E9D60062CD60 /* phone_Login.swift */; };
+		37076E652A31B5B30076BBA9 /* rest_pass_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E642A31B5B30076BBA9 /* rest_pass_screen.swift */; };
+		C7E971452A31E7760062CD60 /* otp_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E971442A31E7760062CD60 /* otp_screen.swift */; };
+		C7E9714E2A31E9D60062CD60 /* phone_login_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9714D2A31E9D60062CD60 /* phone_login_screen.swift */; };
 		C7E971512A320CFF0062CD60 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = C7E971502A320CFF0062CD60 /* GoogleSignIn */; };
 		C7E971532A320CFF0062CD60 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C7E971522A320CFF0062CD60 /* GoogleSignInSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		049383692A351E0E00E91F93 /* login_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_screen.swift; sourceTree = "<group>"; };
+		0493836B2A351E4200E91F93 /* Form_login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_login.swift; sourceTree = "<group>"; };
+		0493836E2A352E1B00E91F93 /* IntailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntailScreen.swift; sourceTree = "<group>"; };
+		049383712A35373900E91F93 /*   feature_button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "  feature_button.swift"; sourceTree = "<group>"; };
 		0494ACB92A31103400CAE364 /* ios_template_swift_ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_template_swift_ui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0494ACBC2A31103400CAE364 /* ios_template_swift_uiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_template_swift_uiApp.swift; sourceTree = "<group>"; };
 		0494ACBE2A31103400CAE364 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,13 +56,12 @@
 		0494ACF12A323B4B00CAE364 /* custom_secure_field_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = custom_secure_field_view.swift; sourceTree = "<group>"; };
 		0494ACF32A323B5800CAE364 /* custom_text_field_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = custom_text_field_view.swift; sourceTree = "<group>"; };
 		0494ACF52A323B8A00CAE364 /* form_signUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = form_signUp.swift; sourceTree = "<group>"; };
-		37076E5E2A31B51A0076BBA9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		37076E602A31B5520076BBA9 /* CustomeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTextField.swift; sourceTree = "<group>"; };
 		37076E622A31B57D0076BBA9 /* ScrolLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrolLoginButton.swift; sourceTree = "<group>"; };
-		37076E642A31B5B30076BBA9 /* RestPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestPassView.swift; sourceTree = "<group>"; };
-		C7E971442A31E7760062CD60 /* otpScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = otpScreen.swift; sourceTree = "<group>"; };
+		37076E642A31B5B30076BBA9 /* rest_pass_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rest_pass_screen.swift; sourceTree = "<group>"; };
+		C7E971442A31E7760062CD60 /* otp_screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = otp_screen.swift; sourceTree = "<group>"; };
 		C7E971482A31E7940062CD60 /* ios-template-swift-ui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ios-template-swift-ui-Info.plist"; sourceTree = SOURCE_ROOT; };
-		C7E9714D2A31E9D60062CD60 /* phone_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phone_Login.swift; sourceTree = "<group>"; };
+		C7E9714D2A31E9D60062CD60 /* phone_login_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phone_login_screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0493836D2A352DF600E91F93 /* intial */ = {
+			isa = PBXGroup;
+			children = (
+				049383702A35372200E91F93 /* component */,
+				0493836E2A352E1B00E91F93 /* IntailScreen.swift */,
+			);
+			path = intial;
+			sourceTree = "<group>";
+		};
+		049383702A35372200E91F93 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				049383712A35373900E91F93 /*   feature_button.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
 		0494ACB02A31103400CAE364 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +160,7 @@
 		0494ACE12A3123B900CAE364 /* feature */ = {
 			isa = PBXGroup;
 			children = (
+				0493836D2A352DF600E91F93 /* intial */,
 				0494ACE42A323A7900CAE364 /* auth */,
 			);
 			path = feature;
@@ -187,7 +211,11 @@
 		0494ACEB2A323AD200CAE364 /* screen */ = {
 			isa = PBXGroup;
 			children = (
+				C7E9714D2A31E9D60062CD60 /* phone_login_screen.swift */,
+				C7E971442A31E7760062CD60 /* otp_screen.swift */,
+				37076E642A31B5B30076BBA9 /* rest_pass_screen.swift */,
 				0494ACEC2A323AE600CAE364 /* signUp_screen.swift */,
+				049383692A351E0E00E91F93 /* login_screen.swift */,
 			);
 			path = screen;
 			sourceTree = "<group>";
@@ -198,12 +226,9 @@
 				0494ACF52A323B8A00CAE364 /* form_signUp.swift */,
 				0494ACF32A323B5800CAE364 /* custom_text_field_view.swift */,
 				0494ACF12A323B4B00CAE364 /* custom_secure_field_view.swift */,
-				37076E5E2A31B51A0076BBA9 /* LoginView.swift */,
 				37076E602A31B5520076BBA9 /* CustomeTextField.swift */,
 				37076E622A31B57D0076BBA9 /* ScrolLoginButton.swift */,
-				37076E642A31B5B30076BBA9 /* RestPassView.swift */,
-				C7E971442A31E7760062CD60 /* otpScreen.swift */,
-				C7E9714D2A31E9D60062CD60 /* phone_Login.swift */,
+				0493836B2A351E4200E91F93 /* Form_login.swift */,
 			);
 			path = component;
 			sourceTree = "<group>";
@@ -299,16 +324,19 @@
 				0494ACBF2A31103400CAE364 /* ContentView.swift in Sources */,
 				0494ACF42A323B5800CAE364 /* custom_text_field_view.swift in Sources */,
 				37076E632A31B57D0076BBA9 /* ScrolLoginButton.swift in Sources */,
-				37076E5F2A31B51A0076BBA9 /* LoginView.swift in Sources */,
 				0494ACBD2A31103400CAE364 /* ios_template_swift_uiApp.swift in Sources */,
 				0494ACEA2A323AC100CAE364 /* auth_service.swift in Sources */,
+				0493836C2A351E4200E91F93 /* Form_login.swift in Sources */,
 				0494ACF62A323B8A00CAE364 /* form_signUp.swift in Sources */,
+				0493836A2A351E0E00E91F93 /* login_screen.swift in Sources */,
 				0494ACF22A323B4B00CAE364 /* custom_secure_field_view.swift in Sources */,
-				C7E971452A31E7760062CD60 /* otpScreen.swift in Sources */,
-				37076E652A31B5B30076BBA9 /* RestPassView.swift in Sources */,
+				C7E971452A31E7760062CD60 /* otp_screen.swift in Sources */,
+				37076E652A31B5B30076BBA9 /* rest_pass_screen.swift in Sources */,
+				049383722A35373900E91F93 /*   feature_button.swift in Sources */,
 				37076E612A31B5520076BBA9 /* CustomeTextField.swift in Sources */,
 				0494ACED2A323AE600CAE364 /* signUp_screen.swift in Sources */,
-				C7E9714E2A31E9D60062CD60 /* phone_Login.swift in Sources */,
+				0493836F2A352E1B00E91F93 /* IntailScreen.swift in Sources */,
+				C7E9714E2A31E9D60062CD60 /* phone_login_screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
