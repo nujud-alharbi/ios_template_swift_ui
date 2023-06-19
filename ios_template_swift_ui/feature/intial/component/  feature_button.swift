@@ -10,27 +10,27 @@ import SwiftUI
 struct FeatureButton: View {
     var body: some View {
         
-     
+        
         
         NavigationLink{
             SignUp()
         }
     label:{
-
-
-Text("Auth ")
-   .font(.headline)
-   .foregroundColor(.white)
-   .padding()
-   .frame(width: 325, height: 55)
-   .background(Color.black)
-   .cornerRadius(10)
-
+        
+        
+        Text("Auth ")
+            .font(.headline)
+            .foregroundColor(.white)
+            .padding()
+            .frame(width: 325, height: 55)
+            .background(Color.black)
+            .cornerRadius(10)
+        
     }
         
-     
-        NavigationLink{
-            
+        
+        NavigationLink {
+            FirstScreen()
         }
     label:{
         
@@ -44,7 +44,7 @@ Text("Auth ")
             .cornerRadius(10)
         
     }
-      
+        
         
         
         

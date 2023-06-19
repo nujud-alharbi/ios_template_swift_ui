@@ -30,6 +30,19 @@
 		0494ACF22A323B4B00CAE364 /* custom_secure_field_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACF12A323B4B00CAE364 /* custom_secure_field_view.swift */; };
 		0494ACF42A323B5800CAE364 /* custom_text_field_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACF32A323B5800CAE364 /* custom_text_field_view.swift */; };
 		0494ACF62A323B8A00CAE364 /* form_signUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494ACF52A323B8A00CAE364 /* form_signUp.swift */; };
+		0C3642D42A37131700333900 /* EditProductScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3642D32A37131700333900 /* EditProductScreen.swift */; };
+		0C77951E2A360438008F10F0 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C77951D2A360438008F10F0 /* ImagePicker.swift */; };
+		0CAE32B12A3E1D8B0092F856 /* ProductEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE32B02A3E1D8B0092F856 /* ProductEditView.swift */; };
+		0CAE32B32A3E290C0092F856 /* DashboradScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE32B22A3E290C0092F856 /* DashboradScreen.swift */; };
+		0CBAAE672A35AA6D00BD986D /* ProductScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAE662A35AA6D00BD986D /* ProductScreen.swift */; };
+		0CBAAE6D2A35AB5700BD986D /* AddProductScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAE6C2A35AB5700BD986D /* AddProductScreen.swift */; };
+		0CBAAE712A35AC0900BD986D /* UsersSscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAE702A35AC0900BD986D /* UsersSscreen.swift */; };
+		0CBAAE732A35AC2400BD986D /* OrderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAE722A35AC2400BD986D /* OrderScreen.swift */; };
+		0CBAAE782A35AD0500BD986D /* ProductAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAE772A35AD0500BD986D /* ProductAddView.swift */; };
+		0CBAAE7A2A35AD2000BD986D /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAE792A35AD2000BD986D /* ProductListView.swift */; };
+		0CBAAE7E2A35B6AB00BD986D /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAE7D2A35B6AB00BD986D /* FirstScreen.swift */; };
+		0CBAAE802A35B82500BD986D /* FeatureButtonCrud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAE7F2A35B82500BD986D /* FeatureButtonCrud.swift */; };
+		0CBAAE822A35EAB300BD986D /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAE812A35EAB300BD986D /* CustomText.swift */; };
 		37076E612A31B5520076BBA9 /* CustomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E602A31B5520076BBA9 /* CustomeTextField.swift */; };
 		37076E632A31B57D0076BBA9 /* ScrolLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E622A31B57D0076BBA9 /* ScrolLoginButton.swift */; };
 		37076E652A31B5B30076BBA9 /* rest_pass_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37076E642A31B5B30076BBA9 /* rest_pass_screen.swift */; };
@@ -56,6 +69,19 @@
 		0494ACF12A323B4B00CAE364 /* custom_secure_field_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = custom_secure_field_view.swift; sourceTree = "<group>"; };
 		0494ACF32A323B5800CAE364 /* custom_text_field_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = custom_text_field_view.swift; sourceTree = "<group>"; };
 		0494ACF52A323B8A00CAE364 /* form_signUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = form_signUp.swift; sourceTree = "<group>"; };
+		0C3642D32A37131700333900 /* EditProductScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProductScreen.swift; sourceTree = "<group>"; };
+		0C77951D2A360438008F10F0 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		0CAE32B02A3E1D8B0092F856 /* ProductEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductEditView.swift; sourceTree = "<group>"; };
+		0CAE32B22A3E290C0092F856 /* DashboradScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboradScreen.swift; sourceTree = "<group>"; };
+		0CBAAE662A35AA6D00BD986D /* ProductScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductScreen.swift; sourceTree = "<group>"; };
+		0CBAAE6C2A35AB5700BD986D /* AddProductScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductScreen.swift; sourceTree = "<group>"; };
+		0CBAAE702A35AC0900BD986D /* UsersSscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersSscreen.swift; sourceTree = "<group>"; };
+		0CBAAE722A35AC2400BD986D /* OrderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderScreen.swift; sourceTree = "<group>"; };
+		0CBAAE772A35AD0500BD986D /* ProductAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAddView.swift; sourceTree = "<group>"; };
+		0CBAAE792A35AD2000BD986D /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		0CBAAE7D2A35B6AB00BD986D /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		0CBAAE7F2A35B82500BD986D /* FeatureButtonCrud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureButtonCrud.swift; sourceTree = "<group>"; };
+		0CBAAE812A35EAB300BD986D /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
 		37076E602A31B5520076BBA9 /* CustomeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTextField.swift; sourceTree = "<group>"; };
 		37076E622A31B57D0076BBA9 /* ScrolLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrolLoginButton.swift; sourceTree = "<group>"; };
 		37076E642A31B5B30076BBA9 /* rest_pass_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rest_pass_screen.swift; sourceTree = "<group>"; };
@@ -160,6 +186,7 @@
 		0494ACE12A3123B900CAE364 /* feature */ = {
 			isa = PBXGroup;
 			children = (
+				0CBAAE5D2A35A74100BD986D /* crud */,
 				0493836D2A352DF600E91F93 /* intial */,
 				0494ACE42A323A7900CAE364 /* auth */,
 			);
@@ -231,6 +258,106 @@
 				0493836B2A351E4200E91F93 /* Form_login.swift */,
 			);
 			path = component;
+			sourceTree = "<group>";
+		};
+		0CBAAE5D2A35A74100BD986D /* crud */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAAE652A35A81F00BD986D /* component */,
+				0CBAAE632A35A7D900BD986D /* view */,
+				0CBAAE612A35A7AD00BD986D /* service */,
+				0CBAAE602A35A77600BD986D /* controller */,
+				0CBAAE622A35A7C000BD986D /* model */,
+			);
+			path = crud;
+			sourceTree = "<group>";
+		};
+		0CBAAE602A35A77600BD986D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0CBAAE612A35A7AD00BD986D /* service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		0CBAAE622A35A7C000BD986D /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0CBAAE632A35A7D900BD986D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAAE682A35AAAA00BD986D /* admin */,
+				0CBAAE692A35AAD800BD986D /* user */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0CBAAE642A35A81600BD986D /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAAE662A35AA6D00BD986D /* ProductScreen.swift */,
+				0CBAAE6C2A35AB5700BD986D /* AddProductScreen.swift */,
+				0CBAAE702A35AC0900BD986D /* UsersSscreen.swift */,
+				0CBAAE722A35AC2400BD986D /* OrderScreen.swift */,
+				0CBAAE7D2A35B6AB00BD986D /* FirstScreen.swift */,
+				0C3642D32A37131700333900 /* EditProductScreen.swift */,
+				0CAE32B22A3E290C0092F856 /* DashboradScreen.swift */,
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
+		0CBAAE652A35A81F00BD986D /* component */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAAE762A35ACD100BD986D /* product */,
+				0CBAAE7F2A35B82500BD986D /* FeatureButtonCrud.swift */,
+				0CBAAE812A35EAB300BD986D /* CustomText.swift */,
+				0C77951D2A360438008F10F0 /* ImagePicker.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		0CBAAE682A35AAAA00BD986D /* admin */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAAE642A35A81600BD986D /* screen */,
+			);
+			path = admin;
+			sourceTree = "<group>";
+		};
+		0CBAAE692A35AAD800BD986D /* user */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAAE6A2A35AB2700BD986D /* screen */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		0CBAAE6A2A35AB2700BD986D /* screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
+		0CBAAE762A35ACD100BD986D /* product */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAAE772A35AD0500BD986D /* ProductAddView.swift */,
+				0CAE32B02A3E1D8B0092F856 /* ProductEditView.swift */,
+				0CBAAE792A35AD2000BD986D /* ProductListView.swift */,
+			);
+			path = product;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,20 +448,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				0494ACDE2A31226A00CAE364 /* AppDelegate.swift in Sources */,
+				0CBAAE6D2A35AB5700BD986D /* AddProductScreen.swift in Sources */,
+				0CBAAE7A2A35AD2000BD986D /* ProductListView.swift in Sources */,
+				0CBAAE732A35AC2400BD986D /* OrderScreen.swift in Sources */,
+				0CBAAE782A35AD0500BD986D /* ProductAddView.swift in Sources */,
 				0494ACBF2A31103400CAE364 /* ContentView.swift in Sources */,
+				0CAE32B12A3E1D8B0092F856 /* ProductEditView.swift in Sources */,
 				0494ACF42A323B5800CAE364 /* custom_text_field_view.swift in Sources */,
+				0C77951E2A360438008F10F0 /* ImagePicker.swift in Sources */,
 				37076E632A31B57D0076BBA9 /* ScrolLoginButton.swift in Sources */,
 				0494ACBD2A31103400CAE364 /* ios_template_swift_uiApp.swift in Sources */,
 				0494ACEA2A323AC100CAE364 /* auth_service.swift in Sources */,
 				0493836C2A351E4200E91F93 /* Form_login.swift in Sources */,
 				0494ACF62A323B8A00CAE364 /* form_signUp.swift in Sources */,
+				0CBAAE822A35EAB300BD986D /* CustomText.swift in Sources */,
+				0CBAAE802A35B82500BD986D /* FeatureButtonCrud.swift in Sources */,
 				0493836A2A351E0E00E91F93 /* login_screen.swift in Sources */,
+				0CBAAE672A35AA6D00BD986D /* ProductScreen.swift in Sources */,
+				0CAE32B32A3E290C0092F856 /* DashboradScreen.swift in Sources */,
 				0494ACF22A323B4B00CAE364 /* custom_secure_field_view.swift in Sources */,
 				C7E971452A31E7760062CD60 /* otp_screen.swift in Sources */,
+				0CBAAE7E2A35B6AB00BD986D /* FirstScreen.swift in Sources */,
+				0CBAAE712A35AC0900BD986D /* UsersSscreen.swift in Sources */,
 				37076E652A31B5B30076BBA9 /* rest_pass_screen.swift in Sources */,
 				049383722A35373900E91F93 /*   feature_button.swift in Sources */,
 				37076E612A31B5520076BBA9 /* CustomeTextField.swift in Sources */,
 				0494ACED2A323AE600CAE364 /* signUp_screen.swift in Sources */,
+				0C3642D42A37131700333900 /* EditProductScreen.swift in Sources */,
 				0493836F2A352E1B00E91F93 /* IntailScreen.swift in Sources */,
 				C7E9714E2A31E9D60062CD60 /* phone_login_screen.swift in Sources */,
 			);
@@ -465,6 +605,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ios_template_swift_ui/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Z2R72TQD4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ios-template-swift-ui-Info.plist";
@@ -494,6 +635,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ios_template_swift_ui/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Z2R72TQD4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ios-template-swift-ui-Info.plist";
