@@ -11,7 +11,6 @@ import SwiftUI
 struct FeatureButtonCrud: View {
     var body: some View {
         NavigationLink{
-            ProductScreen()
         }
         
     label:{
@@ -27,6 +26,7 @@ struct FeatureButtonCrud: View {
     }
         
         NavigationLink{
+          ProductScreen()
             
         }
         
